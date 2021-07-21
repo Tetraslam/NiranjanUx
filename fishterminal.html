@@ -2,7 +2,6 @@
 
 <head>
   <title>Fishterminal Demo | NiranjanUx 🐧</title>
-  <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
@@ -10,9 +9,84 @@
 <script src="main.js"></script>
 </head>
 
-<body style="background-color:rgb(37, 38, 39)" id="body">
+<body style="background-color:rgb(37, 38, 39);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(9, 238, 85);
+  padding: 10px;" id="body">
+  <style>
+    .topnav {
+  
+  background-color: rgb(0, 0, 10);
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 1;
+
+}
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+
+
+.topnav a {
+  margin:10px;
+  background-color: rgb(8, 8, 8);
+  float: left;
+  color: rgb(152, 231, 163);
+  font-size: 150%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  align-items: center;
+  vertical-align: middle;
+
+  position: relative;
+
+
+}
+
+.topnav a:hover {
+  color: white;
+  background-color:rgb(32, 32, 32);
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.topnav a.active {
+  background-color: #171740;
+  color: rgb(8, 241, 27);
+}
+
+.topnav img {
+  background-color: rgb(24, 24, 85);
+  float: left;
+  color: powderblue;
+  font-size: 150%;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin: 8px;
+  align-content: center;
+  align-items: center;
+  
+}
+
+
+  </style>
   <div class="topnav sticky" style="background-color:black;">
-    <img class="pengulogo" src="./images/Penguin_logo.png" width="25.8375" height="32.5">
+    <img class="pengulogo" src="./images/Penguin_logo.png" width="25.8375" height="32.5"
+    style="background-color: rgb(24, 24, 85);">
     <a href="index.html">Home</a>
     <a href="aboutus.html">About Us</a>
     <a href="joinus.html">Join Us!</a>
@@ -24,8 +98,8 @@
     <br>
     <br>
     <div style="width:100%; padding-bottom:56.25%; position:relative;">
-      <iframe src="/NiranjanUx_Download/indexWebsite.html" style="position:absolute; top:0px; left:0px; 
-      width:100%; height:100%; border: none; overflow: hidden;"></iframe>
+      <iframe src="/NiranjanUx_Download/indexWebsite.html" style="position:fixed; top:100px; left:0px;
+      width:100%; height:85%; border: none; "></iframe><br><br><br>
     </div>
     
     <!-- You can also require other files to run in this process -->
