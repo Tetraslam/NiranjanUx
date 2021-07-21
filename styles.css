@@ -283,3 +283,7 @@ post {
   font-family: "Segoe UI";
   color:#41dd5b;
 }
+
+.lastpost {
+  margin-bottom:100px;
+}
